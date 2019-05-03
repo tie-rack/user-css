@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name        No promoted tweets
+@namespace   https://github.com/tie-rack
+@version     1.0.0
+@description Don't show me promoted tweets, c'mon!
+@author      tie-rack
+@homepageURL https://github.com/tie-rack/user-css
+@license     MPL-2.0
+==/UserStyle== */
+
+@-moz-document domain("twitter.com") {
+  .promoted, li > .promoted-tweet {
+    display: none !important;
+  }
+}

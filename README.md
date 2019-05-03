@@ -13,7 +13,9 @@ Want to install them? Click on the links!
 ## twitter.com
 
 * [No post][twitter-no-post]
+* [No promoted tweets][twitter-no-promoted-tweets]
 * [No status][twitter-no-status]
 
 [twitter-no-post]: https://raw.githubusercontent.com/tie-rack/user-css/master/twitter.com/no-post.user.css
+[twitter-no-promoted-tweets]: https://raw.githubusercontent.com/tie-rack/user-css/master/twitter.com/no-promoted-tweets.user.css
 [twitter-no-status]: https://raw.githubusercontent.com/tie-rack/user-css/master/twitter.com/no-status.user.css
