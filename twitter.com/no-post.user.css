@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name        No Post Twitter
+@namespace   https://github.com/tie-rack
+@version     1.0.0
+@description If you never want to post on Twitter, why see the option?
+@author      tie-rack
+@homepageURL https://github.com/tie-rack/user-css
+@license     MPL-2.0
+==/UserStyle== */
+
+@-moz-document domain("twitter.com") {
+  .ProfileTweet-actionList,
+  .tweet-box,
+  .inline-reply-tweetbox-container {
+    display: none;
+  }
+}

@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name        Statusless Reddit
+@namespace   https://github.com/tie-rack
+@version     1.0.0
+@description Remove status indicators from Reddit (e.g., scores)
+@author      tie-rack
+@homepageURL https://github.com/tie-rack/user-css
+@license     MPL-2.0
+==/UserStyle== */
+
+@-moz-document domain("reddit.com") {
+  .score, button[aria-label=upvote] + div {
+    display: none;
+  }
+}
